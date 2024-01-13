@@ -1,0 +1,17 @@
+{
+  "Operacoes": [
+    {
+      "TypeOperation": "Depósito",
+      "CustomerName": "Morgs",
+      "Value": 1500,
+      "id": 1
+    },
+    {
+      "TypeOperation": "Transferência",
+      "CustomerName": "Morgs",
+      "NameTo": "ferfs",
+      "Value": -400,
+      "id": 2
+    }
+  ]
+}

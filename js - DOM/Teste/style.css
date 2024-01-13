@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html{
+  width: 100%;
+  height: 90%;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  min-width: 100%;
+  min-height: 100%;
+  background-color:greenyellow;
+}
+
+main{
+  min-width: 100%;
+  min-height: 100%;
+  text-align: center;
+}
+
+#headerGame{
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+#nameArea{
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+#player1{
+  text-align: start;
+  width: 11rem;
+}
+
+#Player1Input{
+  width: 12rem;
+  height: 28px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: transparent;
+
+}
+
+#player2{
+  text-align: start;
+  width: 11rem;
+}
+
+#Player2Input{
+  width: 12rem;
+  height: 28px;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: transparent;
+
+}
+
+.button{
+ border-radius: 10px;
+ margin-top: 4rem;
+ padding: 1rem;
+ background-color: transparent;
+}
+
+#turnArea{
+  display: flex;
+  padding-top: 3rem;
+  height: 8rem;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.turn{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 7px;
+  width: 250px;
+  height: 40px;
+}
+
+#gameArea{
+  background-color: white;
+  margin-top: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: .5rem;
+  width: 30rem;
+  height: 25rem;
+}
+
+#gameArea span{
+  background-color:greenyellow;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  font-size: 5rem;
+}
+
+#gameArea span.win{
+  background-color: plum;
+}

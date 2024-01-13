@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+:root{
+  --bg-color: #212529;
+  --border-color: #666;
+  --font-color: #f1f5f9;
+  --primary-color: #4dff91;
+  --error-color: #ff0043;
+}
+
+body, html{
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  font-family: 'Raleway', sans-serif;
+  height: 100%;
+}
+
+#mainContent{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calcApp{
+  display: block;
+  margin: 0 auto;
+  max-width: 35rem;
+  padding: 2rem 2.5rem;
+  position: relative;
+  border: .125rem solid var(--border-color);
+  border-radius: 15px;
+  box-shadow:  -10px 11px 40px black;;
+}
+
+#headerCalc{
+  display: flex;
+  align-items: center;
+  justify-content: space-between ;
+  padding: 1rem 0 1rem 0;
+}
+
+#titleCalc{
+  font-size: 32px;
+  color: var(--font-color);
+  text-decoration: none;
+  
+}
+
+#SwitchTheme{
+  background-color: var(--bg-color);
+  padding: 12px;
+  border-radius: 8px;
+  border: .125rem solid var(--font-color);
+  color: var(--font-color);
+}
+
+#SwitchTheme:hover{
+  background-color: var(--font-color);
+  color: var(--bg-color);
+  transition: .3s;
+}
+
+#input{
+  background-color: var(--bg-color);
+  border: 2px solid var(--border-color);
+  color: var(--font-color);
+  text-align: end;
+  height: 50px;
+  border-radius: 8px;
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+button{
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  border: none;
+  padding: 15px 25px 15px 25px ;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+#keys{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+#keys button:hover{
+  transition: 0.3s;
+  filter: brightness(0.8);
+}
+
+#footerCalc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#copy{
+  max-width: 100px;
+  background-color: transparent;
+  color: var(--font-color);
+  border: 2px solid var(--border-color);
+  border-radius: 6px 0 0 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#copy:hover{
+  filter: brightness(0.8)
+}
+
+#result{
+  background-color: var(--bg-color);
+  border: 2px solid var(--border-color);
+  color: var(--font-color);
+  width: 26rem;
+  height: 57px;
+  padding: 1.2rem;
+  text-align: end;
+  font-size: 1.2rem;
+  border-radius: 0 6px 6px 0;
+}
+
+.success{
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+
+.error{
+  background-color: var(--error-color) !important;
+}

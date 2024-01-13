@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+  <script src="index.js" defer></script>
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <h1>Morgs</h1>
+    <ion-icon size='large' class='home-outline' name="home-outline"><a href="http://127.0.0.1:5500/Aplicação%20final/index.html?"></a></ion-icon>
+  </header>
+  <main id="PrincipalContent">
+    <div id="campos">
+      <input type="hidden" name="id" id="id">
+      <h3>Operações</h3>
+      <div id='ContainerBalance'>
+        <h3 id="balance">Saldo atual:</h3>
+        <span id="AccountValue">0</span>
+      </div>
+      <form action="http://localhost:3000/Operacoes" method="post">
+        <div id='ContainerName'>
+          <label for="CustomerName">Nome:</label>
+          <input type="text" id="CustomerName">
+        </div>
+        <div id="ContainerOptions">
+          <select id="Operation">
+            <option value="Depósito" style="background-color: #1a1d1d">Depósito</option>
+            <option value="Saque" style="background-color: #1a1d1d;">Saque</option>
+            <option value="Transferência" style="background-color: #1a1d1d;">Transferência</option>
+          </select>
+        </div>
+        <div id="ContainerValue">
+          <label for="Value">Valor:</label>
+          <input type="text" id="Value">
+        </div>
+        <span id="ContainerTransfer">
+        </span>
+        <input type="submit" id='BtnSubmit'>
+      </form>
+    </div>
+    <div id="Respostas">
+      <div id="histOp">
+        <h2>Histórico de operações</h2>
+        <ion-icon size="large" id='editIcon' name="create-outline"></ion-icon>
+      </div>
+      <span id="EditField"></span>
+      <span id="OperationArea"></span>
+    </div>
+  </main>
+</body>
+</html>

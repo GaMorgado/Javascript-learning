@@ -1,0 +1,22 @@
+O que é uma API? APPLICATION PROGRAMMING INTERFACE
+
+se refere ao conjunto de definições e protocolos pela qual conseguimos programar nossas aplicações
+
+é um conceito já existente há muito tempo na programação, mas hoje é utilizado muito para se referir aos serviços de backend na web
+
+exemplos: DOM é uma forma de API, nos ajudando a interagir com os elementos do DOCUMENTO
+          qunado usamos uma biblioteca ou framework podemos dizer que ele tem suas próprias APIs, ou seja, as formas específicas como os usamos para programar as aplicações 
+          APIs rest nos fornecem padrões para criar formas de se comunicar com um servidor
+
+
+o que é rest e restfull - Rest(representational state transfer) - é um conjunto de restrições de arquitetura que visa organizar a comunicação entre cliente e servidor
+
+                          uma API RestFul nada mais pe do que API que segue a arquitetura Rest
+                          quando um cliente faz uma requisição usando uma API restfull ela responde transferindo uma represntação do estado do recurso que foi requisitado
+                          
+                          
+                          
+                          principais pontos para que uma API seja considerada restfull - arquitetura cliente servidor
+                                                                                         comunicação através do HTTP
+                                                                                         comunicação stateless, ou seja, todas as solicitações são separadas e independentes
+                                                                                         ter uma interface uniforme e com informações em formato padronizado

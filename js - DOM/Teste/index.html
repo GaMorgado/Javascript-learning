@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway&display=swap" rel="stylesheet">
+  <script src="index.js" defer></script>
+  <title>Jogo da velha</title>
+</head>
+<body>
+  <main id="MainContent">
+    <header id="headerGame">
+      <h1 id="title">Jogo da velha</h1>
+      <div id="nameArea">
+        <div id="player1">
+          <label for="Player1Label">Nome Player 1: </label>
+          <input type="text" id="Player1Input">
+        </div>
+        <div id="player2">
+          <label for="Player2Label">Nome Player 2: </label>
+          <input type="text" id="Player2Input">
+        </div>
+      </div>
+     </header>
+    <button id='buttonStart' class="button">Iniciar</button>
+    <h2 id="turn" data-turn="Player1"></h2>
+    <div id="turnArea">
+      <h3 id="player1Name"></h3>
+      <h3 id="player2Name"></h3>
+    </div>
+    <section id="" class="BoardGame">
+      <span data-region="0.0"></span>
+      <span data-region="0.1"></span>
+      <span data-region="0.2"></span>
+      <span data-region="1.0"></span>
+      <span data-region="1.1"></span>
+      <span data-region="1.2"></span>
+      <span data-region="2.0"></span>
+      <span data-region="2.1"></span>
+      <span data-region="2.2"></span>
+    </section>
+  </main>
+</body>
+</html>

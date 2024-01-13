@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#countries{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.country{ 
+  background-color: white;
+  margin: 1rem;
+  padding: 1rem 1.5rem;
+  width: 11rem;
+}
+
+.country h2{
+  margin-bottom: .75rem;
+}
+
+.country img{
+  width: 8rem;
+  height: auto;
+}

@@ -1,0 +1,226 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+body{
+  background-color: #1a1d1d;
+  color: white;
+}
+
+header{
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  background-color: #253932;
+}
+
+#PrincipalContent{
+  display: flex
+}
+
+#campos{
+  margin: 4rem 4rem 2rem 26rem;
+  padding: 2rem;
+  width: 25vw;
+  height: 34rem; 
+  border: 2px solid white;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+#AccountValue{
+  font-size: large;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width: 21vw;
+  height: 30rem; 
+  padding-top: 2.5rem ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+#ContainerName{
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#ContainerBalance{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#CustomerName{
+  width: 15vw;
+  height: 2rem;
+  padding: 3px 3px 3px 6px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+}
+
+#ContainerOptions{
+  padding: 10px 10px 0 10px;
+}
+
+#Operation{
+  appearance: none;
+  width: 15vw;
+  height: 2.6rem;
+  text-align: center;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  
+}
+
+#ContainerValue{
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+
+#Value{
+  width: 15vw;
+  height: 2rem;
+  padding: 3px 3px 3px 6px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+}
+
+#BtnSubmit{
+  width: 15vw;
+  height: 2.5rem;
+  background-color: #49ff62;
+  border: none;
+  margin-top: 1.5rem;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+#BtnSubmit:hover{
+  cursor: pointer;
+  filter: brightness(0.7);
+  transition: .5s;
+}
+
+.home-outline{
+  cursor: pointer;
+}
+
+#Respostas{
+  width: 500px;
+  margin: 85px 0px 0px 85px;
+}
+
+#OperationArea{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  
+}
+
+#ContainerTransfer{
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+#TransferTo{
+  width: 15vw;
+  height: 2rem;
+  padding: 3px 3px 3px 6px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid white;
+  color: white;
+}
+
+.OperetionSec{
+    border: 2px solid white;
+    height: 6rem;
+    width: 11rem;
+    border-radius: 5px;
+    padding: 12px;
+    gap: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+#histOp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 20px;
+
+}
+
+#editIcon{
+  cursor: pointer;
+}
+
+#EditField{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  gap: 5px;
+}
+#BotãoEditar{
+  height: 2rem;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 3px 6px 3px 6px;
+  cursor: pointer;
+}
+
+#botãoDeletar{
+  height: 2rem;
+  background-color: transparent;
+  border-radius: 0px 10px 10px 0;
+  border: 2px solid white;
+  color: white;
+  padding: 3px 6px 3px 6px;
+  cursor: pointer;
+}
+
+#inputEdit{
+  width: 14.7vw;
+  height: 2rem;
+  padding: 3px 3px 3px 6px;
+  background-color: transparent;
+  border-radius: 10px 0px 0px 10px;
+  border: 2px solid white;
+  color: white;
+}

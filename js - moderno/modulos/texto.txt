@@ -1,0 +1,13 @@
+incluir mais de um arquivo javascript no hmtl de maneira fácil
+ 
+módulos: capítulos de um livro ou seções de supermercado.
+
+funções unicas
+ 
+pq utilizar módulos?
+
+Manutenibilidade = facil de dar manutenção
+Namespacing = alta chance de incompatibilidade de nome de variáveis
+Reusabilidade = da pra utilizar em outras aplicações
+
+módulos no js = CommonJs ou ES modules

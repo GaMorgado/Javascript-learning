@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Trabalhando com formulários</title>
+</head>
+<body>
+  <h1>Trabalhando com formulário</h1>
+  <hr>
+  <h2>Mostrar pedido</h2> 
+
+  <form id="orderForm">
+    <label for="name">Nome: </label>
+    <br>
+    <input type="text" id="name" name="name">
+    <br><br>
+    <label for="address">Endereço de entrega: </label>
+    <br>
+    <input type="text" id="address" name="address">
+    <br><br>
+
+    <label for="bread">Tipo de pão: </label>
+    <br>
+    <select id="bread" name="bread">
+      <option selected disabled>Selecione uma opção...</option>
+      <option value="integral">integral</option>
+      <option value="frances">frances</option>
+      <option value="baguete">baguete</option>
+    </select>
+    <br><br>
+    <label for="mix">Principal: </label>
+    <br>
+    <input type="radio" name="mix" id="mix1" value="Carne">
+    <label for="mix1">Carne</label>
+    <input type="radio" name="mix" id="mix2" value="Frango">
+    <label for="mix2">Frango</label>
+    <input type="radio" name="mix" id="mix3" value="Ovo">
+    <label for="mix3">Ovo</label>
+    <br><br>
+    <label for="salad">Salada: </label>
+    <br>
+    <input type="checkbox" name="salad" id="salad1" value="Alface">
+    <label for="salad1">Alface</label>
+    <input type="checkbox" name="salad" id="salad2" value="Tomate">
+    <label for="salad2">Tomate</label>
+    <input type="checkbox" name="salad" id="salad3" value="Azeitona">
+    <label for="salad3">Azeitona</label>
+    <input type="checkbox" name="salad" id="salad4" value="Cenouro">
+    <label for="salad4">Cenoura</label>
+    <input type="checkbox" name="salad" id="salad5" value="Picles">
+    <label for="salad5">Picles</label>
+    <br><br>
+    <label for="obs">Observações</label>
+    <br>
+    <textarea id="obs" name="obs" rows="7" cols="40"></textarea>
+    <br><br>
+    <button type="submit">Fechar pedido</button>
+  <script src="index.js"></script>
+  </form>
+</body>
+</html>

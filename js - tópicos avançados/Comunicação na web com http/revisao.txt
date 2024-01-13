@@ -1,0 +1,25 @@
+HTTP(hyper text transfer protocol): protocolo de comunicação
+
+arquitetura cliente-servidor (cliente: navegador servidor: máquina)
+
+características do http: simples, facil de entender; extensível: permite adicionar novas funcionalidades facilmente; stateless: sem estado
+
+
+
+estrutura das mensagens: 
+
+
+requisição: MÉTODO = DEFINE O TIPO DE OPERAÇÃO A SER REALIZADA
+            CAMINHO = O CAMINHO DO RECURSO A SER OBTIDO, BASICAMENTE A URL DO RECURSO SEM A PARTE INCIAL(PROTOCOLO, DOMINIO E PORTA)
+            VERSÃO = O PROTOCOLO HTTP POSSUI DIFERENTES VERSÕES, COM SUAS RESPECTIVAS PARTICULARIDADES, LOGO É PRECISO DEFINIR A VERSÃO QUE SE ESTÁ UTILIZANDO
+            CABEÇALHO = INFORMAÇÕES ADICIONAIS ENTRE CLIENTE E SERVIDOR
+            CORPO = CONTEUDO DA MENSAGEM, USADO POR EXEMPLO AO ENVIAR UM POST
+
+resposta: CÓDIGO E MENSAGEM DE STATUS - UM CODIGO E UMA BREVE DESCRIÇÃO QUE INDICAM SE A REQUISIÇÃO FOI BEM SUCEDIDA OU NÃO
+          exemplos populares: 200 = sucesso, 301 = redirecionamento(movido permanentemente), 404 = não encontrado, 500 = erro interno do servidor
+
+          VERSÃO: PROTOCOLO, COMO NAS REQUISIÇÕES 
+          
+          CABEÇALHO: INFORMAÇÕES ADICIONAIS
+
+          CORPO> OPCIONALMENTE PODE POSSUIR UM CORPO, QUE É O CONTEUDO DA MENSAGEM(COMO UMA PAGINA OU UM DOCUMENTO JSON)

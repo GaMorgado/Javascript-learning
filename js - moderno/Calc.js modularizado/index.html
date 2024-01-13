@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <script src="js/index.js" type="module" defer></script>
+  <title>Calculadora do morgs</title>
+</head>
+<body>
+  <main id="mainContent" data-theme="dark">
+    <div id="calcApp">
+      <header id="headerCalc">
+        <h1><a id="titleCalc" href="#">Calc.Morgs</a></h1>
+        <button id="SwitchTheme">Dark/Light</button>
+      </header>
+      <input type="text" id="input">
+      <div id="keys">
+        <button id="clearButton">C</button>
+        <button class="charkey" data-value=" (">(</button>
+        <button class="charkey" data-value=") ">)</button>
+        <button class="charkey" data-value=" / ">/</button>
+        <button class="charkey" data-value="7">7</button>
+        <button class="charkey" data-value="8">8</button>
+        <button class="charkey" data-value="9">9</button>
+        <button class="charkey" data-value=" * ">*</button>
+        <button class="charkey" data-value="4">4</button>
+        <button class="charkey" data-value="5">5</button>
+        <button class="charkey" data-value="6">6</button>
+        <button class="charkey" data-value=" - ">-</button>
+        <button class="charkey" data-value="1">1</button>
+        <button class="charkey" data-value="2">2</button>
+        <button class="charkey" data-value="3">3</button>
+        <button class="charkey" data-value=" + ">+</button>
+        <button class="charkey" data-value="0">0</button>
+        <button class="charkey" data-value=".">.</button>
+        <button class="charkey" data-value=" % ">mod</button>
+        <button id="equalButton">=</button>
+      </div>
+      <footer id="footerCalc">
+        <button id="copy">Copy</button>
+        <input id="result" type="text" disabled>
+      </footer>
+    </div>
+  </main>
+</body>
+</html>
